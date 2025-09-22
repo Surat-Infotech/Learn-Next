@@ -15,7 +15,6 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { HydrationBoundary, QueryClientProvider } from '@tanstack/react-query';
 
 import '@mantine/core/styles.css';
-import '@mantine/carousel/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
 
 import AxiosWrapper from '@/api/AxiosWrapper';

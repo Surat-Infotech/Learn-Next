@@ -1,9 +1,9 @@
 import { useMemo } from 'react';
 
 import { useLocalStorage } from 'usehooks-ts';
-import { useQuery } from '@tanstack/react-query';
+// import { useQuery } from '@tanstack/react-query';
 
-import { productCategoriesQuery } from '@/api/product-category';
+// import { productCategoriesQuery } from '@/api/product-category';
 
 import { IRingDiamond, useRingBuilderContext } from '@/stores/ring-builder.context';
 
@@ -44,7 +44,7 @@ import hoopsAndDropsEarringImg from '@/assets/image/fine-jewelry/Hoops & Drops E
 import readyToShipImg from '@/assets/image/ready-to-ship.svg';
 
 export const useNavigation = () => {
-  let { data: _category } = useQuery(productCategoriesQuery.all());
+  // let { data: _category } = useQuery(productCategoriesQuery.all());
   // const { data: _collection } = useQuery(collectionQuery.getList());
   // const [settingCollection, setSettingCollection] = useState<any[]>([]);
   // const [diamondCollection, setDiamondCollection] = useState<any[]>([]);
@@ -96,11 +96,11 @@ export const useNavigation = () => {
   const [ringDiamond] = useLocalStorage<IRingDiamond | null>('ring-builder-diamond', null);
 
   // Remove some categories from the navigation
-  _category = _category?.filter((c) => {
-    const categories = ['earrings', 'wedding-rings', 'pendants', 'bracelets', 'necklaces', 'chains'];
+  // _category = _category?.filter((c) => {
+  //   const categories = ['earrings', 'wedding-rings', 'pendants', 'bracelets', 'necklaces', 'chains'];
 
-    return categories.includes(c.slug) || (c.parent_id && categories.includes(c.parent_id?.slug));
-  });
+  //   return categories.includes(c.slug) || (c.parent_id && categories.includes(c.parent_id?.slug));
+  // });
 
   // TODO: Replace with actual links
   const labDiamondsMenu = {

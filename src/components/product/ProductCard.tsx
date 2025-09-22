@@ -7,8 +7,6 @@ import clsx from 'clsx';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-// import { Carousel } from '@mantine/carousel';
-
 import { useRouter } from 'next/router';
 
 import Swal from 'sweetalert2';
