@@ -1,0 +1,22 @@
+.title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.header{
+  /* position: unset; */
+  position: sticky;
+  top: 0;
+}
+
+.content {
+  height: 100%;
+}
+
+.body {
+  padding:0px 16px 10px 16px;
+}
+
+.mb_70 {
+  margin-bottom: 70px !important;
+}

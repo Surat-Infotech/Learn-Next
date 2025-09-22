@@ -1,0 +1,22 @@
+export type IUser = {
+  _id: string;
+  name: string;
+  email: string;
+  user_name: string;
+  mobile_no: string;
+  country_code: string;
+  country: string;
+  state: string;
+  city: string;
+  post_code: string;
+  avatar: string;
+  gender: string;
+  dob: any;
+  status: string;
+  is_verified: boolean;
+  link_expire_time: any;
+  updated_at: any;
+  deleted_at: any;
+  created_at: string;
+  created_by: string;
+};

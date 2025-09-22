@@ -1,0 +1,17 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+@import url('./bootstrap.min.css');
+
+
+/* Style for react-toastify */
+@import "react-toastify/dist/ReactToastify.css";
+
+/* Custom theme CSS */
+@import url('./style.css');
+
+/* Header CSS */
+@import url('./header.css');
+
+@import url('./globals.css');
+
+/* 360-image CSS */
+@import url('./360-image.css');

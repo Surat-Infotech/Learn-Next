@@ -1,0 +1,21 @@
+.mark {
+  width: rem(2px);
+  height: rem(3px);
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.markLabel {
+  font-size: 10px;
+  color: #0B131A;
+  margin-bottom: 5px;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.thumb {
+  height: 22px;
+  width: 22px;
+  border: 0.5px solid #D3D3D3;
+  box-shadow: 0 4px 4px #00000040;
+}

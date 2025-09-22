@@ -1,0 +1,85 @@
+.header_wrap .navbar {
+  height: 66px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.header_wrap .navbar .navbar-nav .nav-item,
+.header_wrap .navbar .navbar-nav .nav-item .nav-link {
+  height: 66px;
+}
+
+.header_wrap .navbar .navbar-nav .nav-item .nav-link {
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.mantine-Accordion-item {
+  background-color: #f8f9fa;
+}
+
+/* Logo */
+.navbar-brand {
+  margin-right: 30px;
+}
+
+/* Menu css */
+.menu-wrapper {
+  padding: 15px 0;
+}
+
+.menu-padding{
+  padding: 0px 30px 10px;
+}
+
+.menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-list-title {
+  font-weight: 600;
+  padding: 0px 15px;
+  margin-bottom: 14px;
+}
+
+.menu-list-item {
+  padding: 8px 15px;
+  font-size: 12px;
+}
+
+.fine-menu-list-item {
+  padding: 3px 15px;
+}
+
+.menu-list-title,
+.menu-list-title a,
+.menu-list-item a {
+  color: #333 !important;
+  font-size: 12px;
+  line-height: 15px;
+  /* text-transform: capitalize; */
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.menu-list-item:hover a {
+  color: #314185 !important;
+}
+
+.menu-list-item span {
+  white-space: nowrap;
+}
+
+.menu-list-item a {
+  font-weight: 500;
+}
+
+.border-right {
+  border-right: 1px solid #e6e6e6;
+}
+
+.navTitle:hover {
+  color: #314185 !important;
+}

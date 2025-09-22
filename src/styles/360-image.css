@@ -1,0 +1,121 @@
+.cloudimage-360 .cloudimage-360-left,
+.cloudimage-360 .cloudimage-360-right {
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 4px;
+}
+
+.cloudimage-360 .cloudimage-360-left:focus,
+.cloudimage-360 .cloudimage-360-right:focus {
+  outline: none;
+}
+
+.cloudimage-360 .cloudimage-360-left {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  top: calc(50% - 15px);
+  left: 20px;
+}
+
+.cloudimage-360 .cloudimage-360-right {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  top: calc(50% - 15px);
+  right: 20px;
+}
+
+.cloudimage-360 .cloudimage-360-left:before,
+.cloudimage-360 .cloudimage-360-right:before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: 50% 50% / cover no-repeat;
+}
+
+.cloudimage-360 .cloudimage-360-left:before {
+  background-image: url('https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/assets/img/arrow-left.svg');
+}
+
+.cloudimage-360 .cloudimage-360-right:before {
+  background-image: url('https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/assets/img/arrow-right.svg');
+}
+
+.cloudimage-360 .cloudimage-360-left.not-active,
+.cloudimage-360 .cloudimage-360-right.not-active {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.cloudimage-360-fullscreen-modal {
+  z-index: 1031 !important;
+}
+
+.cloudimage-360-fullscreen-modal .cloudimage-360-inner-box canvas {
+  width: auto !important;
+}
+
+.cloudimage-360-loader {
+  display: none;
+}
+
+.cloudimage-360-inner-box canvas {
+  width: 499px !important;
+}
+
+.degree-360 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pause-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pause-play i {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  border-radius: 50%;
+}
+
+.cloudimage-360-fullscreen-icon,
+.cloudimage-360-close-fullscreen-icon{
+    background: url('../assets/image/360degree/up-right-and-down-left-from-center-solid.svg') 50% 50% / cover no-repeat !important;
+}
+
+@media (max-width: 1024px) {
+  .cloudimage-360-inner-box canvas {
+    width: 450px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .cloudimage-360-inner-box canvas {
+    min-width: calc(100vw - 377px) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .cloudimage-360-inner-box canvas {
+    width: 100% !important;
+    min-width: calc(100vw - 54px) !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .cloudimage-360-inner-box canvas {
+    width: 100% !important;
+    min-width: calc(100vw - 24px) !important;
+  }
+}
